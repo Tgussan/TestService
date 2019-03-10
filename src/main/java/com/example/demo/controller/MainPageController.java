@@ -34,17 +34,17 @@ public class MainPageController {
 		UserDetailDTO detail = new UserDetailDTO();
 		detail.setId("detail");
 		detail.setEmail("detailName");
-		detail.setDescription("”õl");
+		detail.setDescription("ï¿½ï¿½ï¿½l");
 		
 		UserDetailDTO2 detail2 = new UserDetailDTO2();
 		detail2.setId("detail");
 		detail2.setEmail("detailName");
-		detail2.setDescription("”õl");
+		detail2.setDescription("ï¿½ï¿½ï¿½l");
 		
 		LongDTO longDTO = new LongDTO();
 		longDTO.setCreateTime((long) 0);
 		
-		userService.saveObject(longDTO);
+		userService.saveObject(detail2);
 		//userService.saveUser(dto);
 		return "DataCreate";
 	}
